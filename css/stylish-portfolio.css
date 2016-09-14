@@ -12,6 +12,24 @@ body {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'PobedaBold'; /*a name to be used later*/
+    src: url('http://partisangames.com/fonts/pobeda-bold.ttf'); /*URL to font*/
+}                                                                              
+
+@font-face {
+    font-family: 'PobedaRegular'; /*a name to be used later*/
+    src: url('http://partisangames.com/fonts/pobeda-regular.ttf'); /*URL to font*/
+}
+
+.pobeda-bold {
+             font-family: PobedaBold,"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}                                       
+
+.pobeda-regular {
+             font-family: PobedaRegular,"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
